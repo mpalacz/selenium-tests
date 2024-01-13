@@ -2,17 +2,16 @@
 Documentation
 ...                 Robot opens google.com, searches for ${SEARCH_QUERRY}
 ...                 and takes screenshot of results.
-...                 ${SEARCH_QUERRY}: querry to be searched
 ...                 ${BROWSER}: browser used for test
+...                 ${SEARCH_QUERRY}: querry to be searched
 
 Resource            kyewords.resource
 
-Suite Setup         Open Browser    https://www.google.com/    ${BROWSER}
+Suite Setup         Open Browser    https://www.google.com/    %{BROWSER}
 Suite Teardown      Close All Browsers
 
 
 *** Variables ***
-%{BROWSER}
 ${SEARCH_QUERRY}    robot framework
 
 
