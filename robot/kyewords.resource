@@ -3,6 +3,12 @@ Library     SeleniumLibrary
 
 
 *** Keywords ***
+Open Browser And Maximize Window
+    [Documentation]    Opens ${page} in ${browser} and maximizes window.
+    [Arguments]    ${page}    ${browser}=ff
+    Open Browser    ${page}    ${browser}
+    Maximize Browser Window
+
 Wait And Click
     [Documentation]
     ...    Waits unlit element is visible and clicks it.
