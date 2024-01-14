@@ -37,8 +37,8 @@ Get Link Of First Non Add Link
     ...    '${PREV_TEST_STATUS}' == 'FAIL'
     ...    msg=Failed to input ${SEARCH_QUERRY} or click search button.
     Log    Collecting adress of first non ad result.
-    Set Test Variable
-    ...    ${first_link_xpath}
+    ${first_link_xpath}=
+    ...    Get WebElement
     ...    //article[@id="r1-0"]//a[@data-testid='result-extras-url-link']
     Wait Until Element Is Visible
     ...    ${first_link_xpath}

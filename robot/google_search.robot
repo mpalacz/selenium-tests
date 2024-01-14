@@ -32,7 +32,7 @@ Search ${SEARCH_QUERRY}
     ...    '${PREV_TEST_STATUS}' == 'FAIL'
     ...    msg=Failed to reject cookies policy.
     Log    Inputing ${SEARCH_QUERRY} into text area.
-    Set Test Variable    ${search_bar}    //textarea[@id="APjFqb"]
+    ${search_bar}=    Get WebElement    //textarea[@id="APjFqb"]
     Wait Until Element Is Visible    ${search_bar}
     Input Text    ${search_bar}    ${SEARCH_QUERRY}
     Log    Clicking search button.
@@ -46,7 +46,7 @@ Get Link Of First Non Add Link
     ...    '${PREV_TEST_STATUS}' == 'FAIL'
     ...    msg=Failed to input ${SEARCH_QUERRY} or click search button.
     Log    Collecting adress of first non ad result.
-    Set Test Variable    ${first_link_xpath}    (//cite)[1]
+    ${first_link_xpath}=    Get WebElement    (//cite)[1]
     Wait Until Element Is Visible
     ...    ${first_link_xpath}
     ...    error=Firts non ad link is not visible.
