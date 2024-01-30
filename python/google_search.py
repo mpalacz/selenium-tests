@@ -1,5 +1,6 @@
 import pytest
-import selenium_utils
+from  selenium_utils import setup_test
 from selenium import webdriver
 
-def test_google_search(selenium_utils.setup_test):
+def test_google_search(setup_test):
+    pass
