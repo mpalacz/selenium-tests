@@ -5,7 +5,7 @@ Documentation
 ...                 ${BROWSER}: browser used for test
 ...                 ${SEARCH_QUERRY}: querry to be searched
 
-Resource            kyewords.resource
+Resource            ../kyewords.resource
 
 Suite Setup
 ...                     Open Browser And Maximize Window

@@ -4,7 +4,7 @@ Documentation
 ...                 Robot created for help, during development of project at: https://github.com/mpalacz/RollOut
 ...                 The robot is raw. TODO: make it more universal
 
-Resource            kyewords.resource
+Resource            ../kyewords.resource
 
 Suite Setup
 ...                     Open Browser And Maximize Window

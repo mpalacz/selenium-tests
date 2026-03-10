@@ -2,7 +2,7 @@ import os
 import subprocess
 import glob
 
-test_suites = glob.glob("*.robot")
+test_suites = glob.glob("tests/*.robot")
 for suite in test_suites:
     suite_name = os.path.splitext(os.path.basename(suite))[0]
     output_dir = f"results/{suite_name}"

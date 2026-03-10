@@ -1,2 +1,3 @@
 python-dotenv
 robotframework-seleniumlibrary
+robotframework-robocop
