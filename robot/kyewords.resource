@@ -1,7 +1,8 @@
 *** Settings ***
-Library    Collections
+Library     Collections
 Library     SeleniumLibrary
-Library    OperatingSystem
+Library     OperatingSystem
+
 
 *** Keywords ***
 Open Browser And Maximize Window
