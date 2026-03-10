@@ -1,6 +1,6 @@
 # Test ideas
 
-1. Simple google search (performs search and opens first non advert link and takes screenshot of loaded page)
+<!-- 1. Simple google search (performs search and opens first non advert link and takes screenshot of loaded page) google has bot protection now-->
 2. Simple duckduckgo search (same as above)
 3. Simple ecosia search (same as above)
 4. Ask question in ecosia AI chat and read first answer 
